@@ -9,7 +9,7 @@ list_of_failed_output = []
 def execute_linux_commands(commands, current_directory):
     for command in commands:
         try:
-            # Super_pages test
+            ## Super_pages test
             if "smap" in command:
                 print("Test to execute Super_pages")
                 # Run the command in the shell with the specified working directory
